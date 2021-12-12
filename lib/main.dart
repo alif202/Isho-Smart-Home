@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:isho_smart_home/screens/login/login.dart';
 import 'routes.dart';
 import 'screens//splash/splash_screen.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       //theme: theme(),
       // home: SplashScreen(),
       // We use routeName so that we don''t need to remember the name
-      initialRoute: SplashScreen.routeName,
+      initialRoute: login_screen.routeName,
       routes: routes,
     );
   }
